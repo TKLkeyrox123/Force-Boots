@@ -4,7 +4,7 @@ import { ref, computed, inject } from 'vue'
 
 import DrawerHead from './DrawerHead.vue'
 import CartListItem from './CartListItem.vue'
-import InfoBlock from './infoBlock.vue'
+import InfoBlock from '../InfoBlock.vue'
 
 const props = defineProps({
   totalPrice: Number,
